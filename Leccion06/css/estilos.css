@@ -1,0 +1,35 @@
+h1{
+    color: #ef476f;
+    background-color: beige;
+    text-align: center;
+    /*Combierte todo el texto a mayusculas*/
+    text-transform: uppercase;
+    /*Genera una sombra*/
+    text-shadow: 2px 2px 2px #ced4da;
+    /*Separa espaciado entre letras*/
+    letter-spacing: 3px;
+    /*Separa las Palabras*/
+    word-spacing: 3px;
+    /*Poner una linea asia arriba y asia abajo*/
+    text-decoration: overline underline;
+}
+.caja{
+    padding: 15px;
+    margin: auto;
+    width: 70%;
+    background-color: #219ebc;
+    border-radius: 5px;
+    color: white;
+}
+.texto{
+    text-align: justify;
+    /*De isquiera a derecha*/
+    /* direction: rtl; */
+    /* text-decoration: none; */
+    /*Poner sangria al parrafo*/
+    text-indent: 30px;
+    /*Espaciado entre lineas*/
+    line-height: 1.5;
+    white-space: normal;
+    text-shadow: 1px 1px 2px #ced4da;
+}

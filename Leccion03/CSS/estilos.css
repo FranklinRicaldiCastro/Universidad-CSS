@@ -1,0 +1,47 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+h1{
+    text-align: center;
+    color: #e63946;
+}
+.caja1{
+    padding: 10px 15px 5px 3px;
+    border: 1px solid #457b9d;
+    margin: 30px;
+    background-color: #f1faee;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+.caja2{
+    padding: 10px 15px 5px 3px;
+    border: 1px solid #457b9d;
+    margin: 20px;
+    background-color: #f1faee;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+/*div{
+    padding: 10px 15px 5px 3px;
+    border: 1px solid #457b9d;
+    margin: 20px;
+    background-color: #f1faee;
+    max-width: 300px;
+    box-sizing: border-box;*/
+    /*Tamaño de pantalla*/
+    /* width: 100px; */
+    /*tamaño maximo de pantalla responsive*/
+    /* max-width: 300%;*/
+    /* outline: 10px solid #a8dadc; */
+    /* outline: 10px dashed #a8dadc; */
+    /* outline: 10px double #a8dadc; */
+    /* outline: 10px inset #a8dadc; */
+    /* outline: 10px outset #a8dadc; */
+    /*Separacion entre el borde y outline*/
+    /* outline-offset: 10px; */
+/*}*/
+/* p.interno{
+    margin-left: inherit;
+} */

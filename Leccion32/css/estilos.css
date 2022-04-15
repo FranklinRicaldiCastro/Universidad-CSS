@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px #a8dadc;
+    color: #e63046;
+}
+div.contenedor{
+    display: flex;
+    background-color: #560bad;
+    /* flex-direction: column-reverse; */
+    /*flex-direction: row;*/
+    /*pasa asi abajo los elementos se ajustan*/
+    /*flex-wrap: wrap;*/
+    flex-flow: row wrap;
+    /*Cargados Hacia la izquierda*/
+    /* justify-content: flex-start; */
+    /*Cargados Hacia la derecha*/
+    /* justify-content: flex-end; */
+    /*Cargados Hacia el centro*/
+    /* justify-content: space-between; */
+    /*Cargados Hacia el alrededor*/
+    /* justify-content: space-around; */
+    /*Deja el mismo espacio entre lso elementos*/
+    justify-content: space-evenly;
+    height: 300px;
+    /*alineados hacia arriva*/
+    /* align-items: flex-start; */
+    /*alineados hacia el medio*/
+    /* align-items: center; */
+    /*baseline=mejor que center*/
+    /* align-items: baseline; */
+    /*Alinea los elementos de forma vertical*/
+    /*superior*/
+    /* align-content: flex-start; */
+    /*inferior*/
+    /* align-content: flex-end; */
+    /*centrado*/
+    /* align-content: center;  */
+    /*Espacio enter los elementos de forma vertical*/
+    /* align-content: space-around; */
+    /*Se carga los elementos hacia los extremos*/
+    /* align-content: space-around;*/
+    /*Centra los elementos de forma vertical*/
+    align-items: stretch;
+}
+div.contenedor > p{
+    background-color: #4895ef;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}

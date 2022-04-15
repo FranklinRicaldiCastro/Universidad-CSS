@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #457d9d;
+    text-align: center;
+}
+div.contenedor p::selection{
+    background-color: yellow;
+    color: red;
+}
+/*editar linea*/
+div.contenedor p::first-line{
+    font-variant: small-caps;
+}
+/*Editar primer letra de cada párrafo*/
+div.contenedor p::first-letter{
+    color: red;
+    font-size: 1.5em;
+}
